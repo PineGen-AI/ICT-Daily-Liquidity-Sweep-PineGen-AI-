@@ -1,9 +1,13 @@
 # ICT Daily Liquidity Sweep Strategy (Pine Script v6)
 
+<img width="1140" height="520" alt="Copy of Website (2)" src="https://github.com/user-attachments/assets/0ea607ab-da0e-4fd2-8125-c0b020cdd52d" />
+
+
 An algorithmic, non-repainting **Pine Script v6** strategy for TradingView that automates Inner Circle Trader (ICT) concepts around **Asian Session Liquidity Sweeps** and **Previous Day High/Low (PDH/PDL)** liquidity grabs[cite: 1]. Developed using **[PineGen AI](https://www.pinegen.ai/)**[cite: 1].
 
 ---
-<img width="1377" height="578" alt="image" src="https://github.com/user-attachments/assets/81381ab8-954d-4c2d-a5b0-cdc7f2518752" />
+<img width="1140" height="520" alt="196" src="https://github.com/user-attachments/assets/c84e8cf8-9e80-48d0-853c-e9af6f900bd2" />
+
 
 
 ## Technical Overview
@@ -48,6 +52,7 @@ To eliminate false breakouts during low-volume periods, execution is strictly re
 | **Visuals** | `Labels / Session Backgrounds`| Enabled | Visual toggles for liquidity lines and session boxes[cite: 1]. |
 
 ---
+<img width="1140" height="520" alt="195" src="https://github.com/user-attachments/assets/47776e44-aab4-4070-9c15-c9a7ad21375b" />
 
 ## Backtest Assumptions & Execution Model
 
