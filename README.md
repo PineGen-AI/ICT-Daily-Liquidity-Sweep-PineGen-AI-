@@ -3,6 +3,8 @@
 An algorithmic, non-repainting **Pine Script v6** strategy for TradingView that automates Inner Circle Trader (ICT) concepts around **Asian Session Liquidity Sweeps** and **Previous Day High/Low (PDH/PDL)** liquidity grabs[cite: 1]. Developed using **[PineGen AI](https://www.pinegen.ai/)**[cite: 1].
 
 ---
+<img width="1377" height="578" alt="image" src="https://github.com/user-attachments/assets/81381ab8-954d-4c2d-a5b0-cdc7f2518752" />
+
 
 ## Technical Overview
 
