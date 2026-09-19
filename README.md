@@ -10,17 +10,10 @@ The **ICT Daily Liquidity Sweep Strategy** systematic execution model trades liq
 
 To eliminate false breakouts during low-volume periods, execution is strictly restricted to designated session trading windows (e.g., London and New York open hours)[cite: 1].
 
----
-
-## Strategy Logic & Workflow
-
-Asian Session Range          Liquidity Sweep           Reversal Confirmation          Entry & Exits
-(00:00-08:00 UTC)         (PDH/PDL or High/Low)        (Close back inside)        (Configurable Window)
-+--------------------+      +--------------------+      +----------------------+      +----------------------+
-| Lock Asian High    |      | Price trades       |      | Bar closes back      |      | Enter Market Order   |
-| & Asian Low        |----->| beyond session/    |----->| inside the established|----->| SL: Sweep Wick + Pad |
-| boundaries.        |      | daily liquidity.   |      | range boundaries.    |      | TP: Split TP1/TP2    |
-+--------------------+      +--------------------+      +----------------------+      +----------------------+
+| Asian Session Range | Liquidity Sweep | Reversal Confirmation | Entry & Exits |
+| --- | --- | --- | --- |
+| **Window:** 00:00–08:00 UTC | **Trigger:** PDH/PDL or Session High/Low | **Condition:** Close back inside range | **Execution:** Market Order |
+| Lock Asian High & Low boundaries | Price trades beyond daily liquidity pools | Bar closes back inside established bounds | **SL:** Sweep Wick + Pad**TP:** Split TP1 / TP2 |
 
 ### 1. Asian Session Range Lock
 * Tracks the session High and Low during a user-defined period (default: `00:00–08:00 UTC`)[cite: 1].
